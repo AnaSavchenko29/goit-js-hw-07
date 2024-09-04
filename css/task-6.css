@@ -1,0 +1,30 @@
+#boxes,
+#controls {
+  padding: 32px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#controls {
+  margin-bottom: 16px;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+#boxes {
+  gap: 44px;
+  align-items: center;
+}
+
+input {
+  border-radius: 8px;
+  background: #f6f6fe;
+  text-align: center;
+  padding: 8px 72px;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
